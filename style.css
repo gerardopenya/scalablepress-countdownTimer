@@ -1,0 +1,32 @@
+
+
+.container {     
+    
+    display: flex;
+    flex-flow: row wrap; 
+
+  }
+
+  .display {
+    margin: 0.5em;
+    padding: 1em;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    flex-grow: 0;     /* do not grow   - initial value: 0 */
+    flex-shrink: 0;   /* do not shrink - initial value: 1 */
+    flex-basis: 4em; 
+}
+
+  .dataNumber {
+    font-size: 2em;    
+    text-align: center; 
+    font-family: monospace;
+  }
+
+  .identificator {
+    text-align: center;
+    color: darkgray;
+    font-family: monospace;
+  }
+
+  
